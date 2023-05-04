@@ -1,14 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&display=swap');
-
 .cormorant{
-    font-family: 'Cormorant Upright', serif;
+  font-family: 'Cormorant Upright', serif;
 }
-
-//slide_bottom
 
 @-webkit-keyframes slide-left {
   0% {
