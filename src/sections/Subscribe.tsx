@@ -11,7 +11,7 @@ const Subscribe = () => {
 
                 <span className="flex flex-col justify-start items-start">
                     <h2 className={styles.white_subTitle}>Newsletter</h2>
-                    <img src={vector} alt="" />
+                    <img src={vector} alt="" loading='lazy'/>
                 </span>
 
                 <span className='text-center'>

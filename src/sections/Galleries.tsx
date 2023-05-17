@@ -23,7 +23,7 @@ const Galleries = () => {
             <div className="w-[90%] lg:w-[40%] lg:h-fit h-full flex flex-col justify-start items-start space-y-4 lg:space-y-6">
                 <span className=' flex flex-col justify-start items-start space-y-2'>
                     <h2 className={styles.white_subTitle}>Instagram</h2>
-                    <img src={vector} alt="" />
+                    <img src={vector} alt="" loading='lazy'/>
                     <h1 className={styles.headline}>Photo Gallery</h1>
                 </span>
                 <p className={styles.details}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, optio sed adipisci non inventore labore cum dolores magnam consequatur! At veritatis delectus aperiam rerum exercitationem accusantium dolores reprehenderit inventore ipsum!</p>
@@ -40,28 +40,28 @@ const Galleries = () => {
                     >
                     <div className='group relative overflow-hidden'>
                         <div className="group-hover:bg-black/50 w-full h-full absolute z-40 transition-all duration-500"></div>
-                        <img src={gallery1} className='h-[400px] lg:h-[450px] pr-5 transition-all duration-500'/>
+                        <img loading='lazy' src={gallery1} className='h-[400px] lg:h-[450px] pr-5 transition-all duration-500'/>
                         <span className="absolute -bottom-full left-[35%] xs:left-[45%] group-hover:bottom-[45%] transition-all duration-500 z-40">
                             <FiInstagram  className='text-white w-[40px] h-[40px] cursor-pointer'/>
                         </span>
                     </div>
                     <div className='group relative overflow-hidden'>
                         <div className="group-hover:bg-black/50 w-full h-full absolute z-40 transition-all duration-500"></div>
-                        <img src={gallery2} className='h-[400px] lg:h-[450px] pr-5 transition-all duration-500'/>
+                        <img loading='lazy' src={gallery2} className='h-[400px] lg:h-[450px] pr-5 transition-all duration-500'/>
                         <span className="absolute -bottom-full left-[35%] xs:left-[45%] group-hover:bottom-[45%] transition-all duration-500 z-40">
                             <FiInstagram  className='text-white w-[40px] h-[40px] cursor-pointer'/>
                         </span>
                     </div>
                     <div className='group relative overflow-hidden'>
                         <div className="group-hover:bg-black/50 w-full h-full absolute z-40 transition-all duration-500"></div>
-                        <img src={gallery3} className='h-[400px] lg:h-[450px] pr-5 transition-all duration-500'/>
+                        <img loading='lazy' src={gallery3} className='h-[400px] lg:h-[450px] pr-5 transition-all duration-500'/>
                         <span className="absolute -bottom-full left-[35%] xs:left-[45%] group-hover:bottom-[45%] transition-all duration-500 z-40">
                             <FiInstagram  className='text-white w-[40px] h-[40px] cursor-pointer'/>
                         </span>
                     </div>
                     <div className='group relative overflow-hidden'>
                         <div className="group-hover:bg-black/50 w-full h-full absolute z-40 transition-all duration-500"></div>
-                        <img src={gallery4} className='h-[400px] lg:h-[450px] pr-5 transition-all duration-500'/>
+                        <img loading='lazy' src={gallery4} className='h-[400px] lg:h-[450px] pr-5 transition-all duration-500'/>
                         <span className="absolute -bottom-full left-[35%] xs:left-[45%] group-hover:bottom-[45%] transition-all duration-500 z-40">
                             <FiInstagram  className='text-white w-[40px] h-[40px] cursor-pointer'/>
                         </span>

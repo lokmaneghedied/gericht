@@ -13,7 +13,7 @@ const Menu = () => {
             {/* TITLE */}
             <div className="w-[80%] h-fit space-y-2 flex flex-col justify-center items-center">
                 <h2 className={styles.white_subTitle}>Menu that fits you platte</h2>
-                <img src={vector} alt="" />
+                <img src={vector} alt="" loading='lazy'/>
                 <h1 className={styles.headline}>Today’s Special</h1>
             </div>
 
@@ -28,14 +28,14 @@ const Menu = () => {
                                 <p className={styles.gold_subTitle}>{wine.item}</p>
                                 <p className={styles.details}>{wine.details}</p>
                             </span>
-                            <img className='w-[20%]' src={rectangle} alt="" />
+                            <img className='w-[20%]' src={rectangle} alt="" loading='lazy'/>
                             <p className={styles.white_subTitle}>{wine.price}</p>
                         </div>
                     ))}
                 </div>
 
                 {/* IMAGE */}
-                <img className='h-[300px] md:self-center lg:w-[25%] lg:h-auto' src={menu} alt="" />
+                <img className='h-[300px] md:self-center lg:w-[25%] lg:h-auto' src={menu} alt="" loading='lazy' />
 
                 {/* COCKTAILS */}
                 <div className='w-full flex flex-col justify-start md:justify-between items-center space-y-2 md:h-full md:w-[35%]'>
@@ -46,7 +46,7 @@ const Menu = () => {
                                 <p className={styles.gold_subTitle}>{cocktail.item}</p>
                                 <p className={styles.details}>{cocktail.details}</p>
                             </span>
-                            <img className='w-[20%]' src={rectangle} alt="" />
+                            <img className='w-[20%]' src={rectangle} alt="" loading='lazy'/>
                             <p className={styles.white_subTitle}>{cocktail.price}</p>
                         </div>
                     ))}

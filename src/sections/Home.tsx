@@ -16,7 +16,7 @@ const Home = () => {
                 {/* TITLE + DESCRIPTION */}
                 <span className="flex flex-col justify-center items-start w-[85%] h-full space-y-2 sm:space-y-4">
                     <h2 className='cormorant text-white font-bold text-2xl sm:text-3xl xl:text-4xl'>Chase the new Flavour</h2>
-                    <img src={vector} alt="" />
+                    <img src={vector} alt="" loading='lazy' />
                     <h1 className='cormorant text-gold font-extrabold text-5xl sm:text-6xl xl:text-[70px] tracking-wider'>The key to Fine dining</h1>
                     <p className='text-gray text-xs sm:text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nam exercitationem! Facere numquam in minima eum velit odit voluptatum neque, quaerat ea, nostrum sint, temporibus odio rerum libero nisi non.</p>
                     <button className={styles.goldBtn}>Explore Menu</button>
@@ -24,7 +24,7 @@ const Home = () => {
             </div>
             {/* IMAGE */}
             <div className='w-[60%] xs:w-[50%] sm:w-[40%] lg:w-[30%]'>
-                <img className='-rotate-90 lg:rotate-0' src={home} alt="" />
+                <img className='-rotate-90 lg:rotate-0' src={home} alt="" loading='lazy'/>
             </div>
         </section>
      );

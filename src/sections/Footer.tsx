@@ -23,7 +23,7 @@ const Footer = () => {
                 <div className="w-[90%] sm:w-[30%] flex flex-col justify-center items-start sm:items-center space-y-2">
                     <h1 className={styles.headline}>GERICHT</h1>
                     <p className='text-white text-sm text-center'>"The best way to find your self is to lose your self in the service of others."</p>
-                    <img src={vector} alt="" />
+                    <img src={vector} alt="" loading='lazy'/>
                     <span className='flex space-x-2 lg:space-x-4'>
                         <TfiFacebook  className='text-white lg:w-[25px] lg:h-[25px] hover:scale-110 transition-all cursor-pointer'/>
                         <TfiTwitter  className='text-white lg:w-[25px] lg:h-[25px] hover:scale-110 transition-all cursor-pointer'/>
