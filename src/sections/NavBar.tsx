@@ -21,7 +21,7 @@ const NavBar = () => {
             <div className='flex justify-around items-center'>
                 {/* LOGO */}
                 <div className="w-[20%] xs:w-[15%] ">
-                    <img src={gericht} alt="gericht" loading='lazy'/>
+                    <img src={gericht} alt="gericht" />
                 </div>
                 {/* NAV BUTTONS */}
                 <div className='hidden lg:flex items-center justify-between w-[30%]'>

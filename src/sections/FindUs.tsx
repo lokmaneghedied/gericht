@@ -27,7 +27,7 @@ const FindUs = () => {
                 <button className={styles.goldBtn}>Visit Us</button>
             </div>
             {/* IMAGE */}
-            <img className='w-[70%] xs:w-[50%] sm:w-[30%]' src={watter} alt="" loading='lazy'/>
+            <img className='w-[70%] xs:w-[50%] sm:w-[30%]' src={watter} alt="" />
         </section>
      );
 }
